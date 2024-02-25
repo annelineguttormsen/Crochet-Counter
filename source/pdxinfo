@@ -1,6 +1,6 @@
-name=Template
-author=You
-description=This is template project
+name=Crochet Counter
+author=Anneline Guttormsen
+description=Tool to keep count of rows and stitches in a crochet project
 bundleID=com.organization.package
 version=0.0.1
 buildNumber=1
