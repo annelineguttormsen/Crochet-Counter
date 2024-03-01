@@ -1,7 +1,5 @@
-import "dvd" -- DEMO
 import "Counter"
 
-local dvd = dvd(1, -1) -- DEMO
 local counter = Counter(10, 100, 50, 50)
 
 local gfx <const> = playdate.graphics
@@ -14,13 +12,11 @@ local function loadGame()
 end
 
 local function updateGame()
-	dvd:update() -- DEMO
 	counter:update()
 end
 
 local function drawGame()
 	gfx.clear() -- Clears the screen
-	dvd:draw() -- DEMO
 	counter:draw()
 end
 
